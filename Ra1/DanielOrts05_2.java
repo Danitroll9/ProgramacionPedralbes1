@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DanielOrts04 { 
+public class DanielOrts05_2 { 
     public static void main(String[] args)  {
        /**Es posa Scanner per a que s'agafin els valors que introduieix l'usuari */
         Scanner input = new Scanner(System.in);
