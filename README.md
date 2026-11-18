@@ -1,1 +1,3 @@
-# ProgramacionPedralbes1
+git pull
+git push
+git commit -m ""
