@@ -65,7 +65,7 @@ class DanielOrts5012 {
                             do
                             {  
                                 /** Pedimos el sueldo del empleado correspondiente */
-                                System.out.printf("Sueldo de empleado "+ (i + 1) +": ");                              
+                                System.out.printf("\nSueldo de empleado "+ (i + 1) +": ");                              
                                 salari = input.nextDouble();
                                 if(salari > 5000 || salari < 500)
                                 {
