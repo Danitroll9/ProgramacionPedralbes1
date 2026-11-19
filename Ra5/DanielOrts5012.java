@@ -65,7 +65,7 @@ class DanielOrts5012 {
                             do
                             {  
                                 /** Pedimos el sueldo del empleado correspondiente */
-                                System.out.printf("Sueldo de empleado "+ (i + 1) +": ");                              
+                                System.out.printf("\nSueldo de empleado "+ (i + 1) +": ");                              
                                 salari = input.nextDouble();
                                 if(salari > 5000 || salari < 500)
                                 {
@@ -119,7 +119,7 @@ class DanielOrts5012 {
                             salaNet = myList[i] - (myList[i]* irpf / 100 ) - (myList[i]* secuSoc );
                             /** y guardamos el neto en su posicion */
                             sueldoNeto[i] = salaNet;
-                            System.out.printf( "%.2f ", salaNet);
+                            System.out.printf( "\n%.2f ", salaNet);
                         }
                                                 
                         break;
