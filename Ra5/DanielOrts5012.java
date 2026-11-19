@@ -174,7 +174,7 @@ class DanielOrts5012 {
                                 /**calculamos el nuevo saldo neto y lo guardamos en la lista, despues le decimos al usuario los cambios hechos */
                                 nuevoSalNeto = nuevoSal - (nuevoSal* irpf / 100 ) - (nuevoSal* secuSoc );
                                 sueldoNeto[lista] = nuevoSalNeto;
-                                System.out.printf( "S'ha modificat el salari, el nou salari brut es: %.2f i el net es: %.2f ", nuevoSal, nuevoSalNeto);
+                                System.out.printf( "\nS'ha modificat el salari, el nou salari brut es: %.2f i el net es: %.2f ", nuevoSal, nuevoSalNeto);
                             }
                             else
                             {
